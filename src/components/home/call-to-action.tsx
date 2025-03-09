@@ -45,7 +45,7 @@ export default function CallToAction() {
               variant="outline"
               className="border-primary-foreground/20 hover:bg-primary-foreground/10">
               <a
-                href="tel:+15551234567"
+                href="tel:+91-982-447-4184"
                 className="min-w-[180px] flex items-center justify-center">
                 <Phone className="mr-2 h-4 w-4" /> Call Us
               </a>
@@ -60,9 +60,9 @@ export default function CallToAction() {
             <p className="flex items-center justify-center">
               <Mail className="mr-2 h-5 w-5" />
               <a
-                href="mailto:info@dsquareconstruction.com"
+                href="mailto:dsquareconstruction@gmail.com"
                 className="hover:underline">
-                info@dsquareconstruction.com
+                dsquareconstruction@gmail.com
               </a>
             </p>
           </motion.div>
