@@ -23,11 +23,12 @@ export default function ContactHero() {
       {/* Background Image with Parallax Effect */}
       <motion.div className="absolute inset-0 z-0" style={{ y, opacity }}>
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=2071&auto=format&fit=crop"
           alt="Contact us"
           fill
           priority
           className="object-cover"
+          style={{ filter: "brightness(0.4)" }}
         />
         <div
           className={`absolute inset-0 ${

@@ -13,7 +13,7 @@ export default function ContactInfo() {
           <div>
             <h3 className="font-bold">Address</h3>
             <p className="text-muted-foreground">
-              123 Construction Ave, Building City, BC 12345
+              D/5 Vasoya Park Society, Ahmedabad, Gujarat, India
             </p>
           </div>
         </div>
@@ -26,9 +26,9 @@ export default function ContactInfo() {
             <h3 className="font-bold">Phone Number</h3>
             <p className="text-muted-foreground">
               <a
-                href="tel:+15551234567"
+                href="tel:+91-982-447-4184"
                 className="hover:text-primary transition-colors">
-                (555) 123-4567
+                (982) 447-4184
               </a>
             </p>
           </div>
@@ -42,9 +42,9 @@ export default function ContactInfo() {
             <h3 className="font-bold">Email</h3>
             <p className="text-muted-foreground">
               <a
-                href="mailto:info@dsquareconstruction.com"
+                href="mailto:dsquareconstruction@gmail.com"
                 className="hover:text-primary transition-colors">
-                info@dsquareconstruction.com
+                dsquareconstruction@gmail.com
               </a>
             </p>
           </div>

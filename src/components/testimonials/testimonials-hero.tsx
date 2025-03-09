@@ -21,11 +21,12 @@ export default function TestimonialsHero() {
       {/* Background Image with Parallax Effect */}
       <motion.div className="absolute inset-0 z-0" style={{ y, opacity }}>
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="https://images.unsplash.com/photo-1552960504-34e1e1be3f53?q=80&w=2070&auto=format&fit=crop"
           alt="Happy clients"
           fill
           priority
           className="object-cover"
+          style={{ filter: "brightness(0.5)" }}
         />
         <div className="absolute inset-0 bg-black/60" />
       </motion.div>

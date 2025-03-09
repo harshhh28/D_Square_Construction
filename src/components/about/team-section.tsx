@@ -7,9 +7,10 @@ import { Linkedin, Twitter, Mail } from "lucide-react";
 
 const team = [
   {
-    name: "David Square",
+    name: "Dharmendra Gajjar",
     role: "Founder & CEO",
-    image: "/team/placeholder.svg",
+    image:
+      "https://scontent.famd1-2.fna.fbcdn.net/v/t39.30808-6/456621691_2493017790887813_8118878257787472249_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=suomaehja1gQ7kNvgEFR3Qz&_nc_oc=AdiL2LQBCTIj93WlLX2dibOhdNkag5pBwt3qqp-KxxWeTLz7Sb_laxtfOC7JxI-dWg-s5W72qWgy5GVsJeLzmw_O&_nc_zt=23&_nc_ht=scontent.famd1-2.fna&_nc_gid=AS7KUMp-y_UHivlbKRRgai8&oh=00_AYHVh8X9swUJVsNsdsooNVqDMauvhA8xK-3AR70rbQ-pXQ&oe=67D37EB8",
     bio: "With over 30 years of experience in construction, David founded DSquare Construction with a vision to deliver excellence in every project.",
     social: {
       linkedin: "#",

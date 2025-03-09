@@ -21,11 +21,12 @@ export default function ServicesHero() {
       {/* Background Image with Parallax Effect */}
       <motion.div className="absolute inset-0 z-0" style={{ y, opacity }}>
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Construction services"
           fill
           priority
           className="object-cover"
+          style={{ filter: "brightness(0.5)" }}
         />
         <div className="absolute inset-0 bg-black/60" />
       </motion.div>

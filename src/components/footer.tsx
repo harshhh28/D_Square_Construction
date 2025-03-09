@@ -86,23 +86,23 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Construction Ave, Building City, BC 12345
+                  D/5 Vasoya Park Society, Ahmedabad, Gujarat, India
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary mr-3" />
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+91-982-447-4184"
                   className="text-muted-foreground hover:text-primary transition-colors">
-                  (555) 123-4567
+                  (982) 447-4184
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-3" />
                 <a
-                  href="mailto:info@dsquareconstruction.com"
+                  href="mailto:dsquareconstruction@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors">
-                  info@dsquareconstruction.com
+                  dsquareconstruction@gmail.com
                 </a>
               </li>
             </ul>
