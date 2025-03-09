@@ -3,9 +3,11 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useTheme } from "next-themes";
 
 export default function TestimonialsHero() {
   const ref = useRef(null);
+  const { theme } = useTheme();
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -26,9 +28,15 @@ export default function TestimonialsHero() {
           fill
           priority
           className="object-cover"
-          style={{ filter: "brightness(0.5)" }}
+          style={{
+            filter: theme === "light" ? "brightness(1)" : "brightness(0.5)",
+          }}
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div
+          className={`absolute inset-0 ${
+            theme === "light" ? "bg-black/40" : "bg-black/60"
+          }`}
+        />
       </motion.div>
 
       {/* Content */}

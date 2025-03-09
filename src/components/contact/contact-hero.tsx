@@ -28,11 +28,13 @@ export default function ContactHero() {
           fill
           priority
           className="object-cover"
-          style={{ filter: "brightness(0.4)" }}
+          style={{
+            filter: theme === "light" ? "brightness(1)" : "brightness(0.4)",
+          }}
         />
         <div
           className={`absolute inset-0 ${
-            theme === "dark" ? "bg-black/60" : "bg-black/20"
+            theme === "light" ? "bg-black/20" : "bg-black/60"
           }`}
         />
       </motion.div>

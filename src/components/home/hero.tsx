@@ -6,9 +6,11 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import { useTheme } from "next-themes";
 
 export default function Hero() {
   const ref = useRef(null);
+  const { theme } = useTheme();
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -29,9 +31,18 @@ export default function Hero() {
           fill
           priority
           className="object-cover"
-          style={{ filter: "brightness(0.5)" }}
+          style={{
+            filter:
+              theme === "light"
+                ? "brightness(1) blur(4px)"
+                : "brightness(0.5) blur(4px)",
+          }}
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div
+          className={`absolute inset-0 ${
+            theme === "light" ? "bg-black/30" : "bg-black/50"
+          }`}
+        />
       </motion.div>
 
       {/* Content */}
