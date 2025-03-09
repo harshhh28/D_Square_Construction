@@ -86,7 +86,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary mr-3 mt-0.5" />
                 <span className="text-muted-foreground">
-                  D/5 Vasoya Park Society, Ahmedabad, Gujarat, India
+                  Ahmedabad, Gujarat, India
                 </span>
               </li>
               <li className="flex items-center">
@@ -109,10 +109,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Newsletter</h3>
+            <h3 className="font-semibold text-lg mb-4">Inquiry</h3>
             <p className="text-muted-foreground mb-4">
-              Subscribe to our newsletter for updates on our latest projects and
-              construction tips.
+              Send us a mail to inquire for upcoming projects and services.
             </p>
             <form className="space-y-2">
               <Input
@@ -122,7 +121,7 @@ export default function Footer() {
                 required
               />
               <Button type="submit" className="w-full">
-                Subscribe
+                Send
               </Button>
             </form>
           </div>
