@@ -12,21 +12,24 @@ const projects = [
     id: 1,
     title: "Modern Office Complex",
     category: "Commercial",
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=2070&auto=format&fit=crop",
     slug: "modern-office-complex",
   },
   {
     id: 2,
     title: "Luxury Residential Tower",
     category: "Residential",
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?q=80&w=2070&auto=format&fit=crop",
     slug: "luxury-residential-tower",
   },
   {
     id: 3,
     title: "Industrial Warehouse",
     category: "Industrial",
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661964014750-963a28aeddea?q=80&w=2070&auto=format&fit=crop",
     slug: "industrial-warehouse",
   },
 ];

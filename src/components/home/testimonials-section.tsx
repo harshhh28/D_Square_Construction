@@ -11,7 +11,8 @@ const testimonials = [
     id: 1,
     name: "John Smith",
     role: "Homeowner",
-    image: "/placeholder.svg?height=200&width=200",
+    image:
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
     quote:
       "DSquare Construction transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations.",
   },
@@ -19,7 +20,8 @@ const testimonials = [
     id: 2,
     name: "Sarah Johnson",
     role: "Business Owner",
-    image: "/placeholder.svg?height=200&width=200",
+    image:
+      "https://images.unsplash.com/photo-1573496527892-904f897eb744?q=80&w=2069&auto=format&fit=crop",
     quote:
       "Working with DSquare on our commercial project was a seamless experience. They delivered on time and within budget while maintaining exceptional quality.",
   },
@@ -27,7 +29,8 @@ const testimonials = [
     id: 3,
     name: "Michael Brown",
     role: "Property Developer",
-    image: "/placeholder.svg?height=200&width=200",
+    image:
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop",
     quote:
       "As a developer, I value reliability and expertise. DSquare Construction has consistently demonstrated both across multiple projects we've collaborated on.",
   },
